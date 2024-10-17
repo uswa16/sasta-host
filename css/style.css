@@ -1,0 +1,7 @@
+.root {
+    --color-primary: rgb(2, 205, 241);
+    --color-secondary: rgb(253, 253, 253);
+    --color-accent: rgb(37, 132, 255);
+    --color-heading:  rgb(54, 7, 96);
+    --color-body: rgb(226, 224, 231);
+  }
