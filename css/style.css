@@ -1,10 +1,11 @@
 .root {
-  --color-primary: rgb(2, 205, 241);
-  --color-secondary: rgb(253, 253, 253);
-  --color-accent: rgb(37, 132, 255);
-  --color-heading: rgb(54, 7, 96);
-  --color-body: rgb(226, 224, 231);
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-heading: #1b0760;
+  --color-body: #918c94;
 }
+/*----------------Typography-------*/
 html {
   font-size: 62.5%;
 }
@@ -39,5 +40,28 @@ p {
   }
   h3 {
     font-size: 2.4rem;
+  }
+}
+/*---------------links-------------*/
+a {
+  text-decoration: none;
+}
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: 0.5s;
+}
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
   }
 }
