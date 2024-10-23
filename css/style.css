@@ -92,3 +92,22 @@ a {
     font-size: 1.2rem;
   }
 }
+/*-----------------list------------------*/
+.list {
+  list-style: none;
+  color: var(--color-heading);
+  padding-left: 0;
+}
+.list--inline .list_item {
+  display: inline-block;
+  margin-left: 2rem;
+  font-weight: bold;
+}
+.list--tick {
+  list-style-image: url(../icons/tick.svg);
+  margin-left: 2rem;
+}
+.list--tick .list_item {
+  padding-left: 0.5rem;
+  font-weight: bold;
+}

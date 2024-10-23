@@ -1,0 +1,11 @@
+<ul class="list list--inline">
+  <li class="list_item"></li>
+  <li class="list_item"></li>
+  <li class="list_item"></li>
+</ul>
+<ul class="list list--tick">
+  <li class="list_item"></li>
+  <li class="list_item"></li>
+  <li class="list_item"></li>
+  <li class="list_item"></li>
+</ul>
